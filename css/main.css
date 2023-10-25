@@ -531,4 +531,104 @@ header nav .form i{
         margin: -190px auto 0 auto;
     }
 /* End about */
+/* start stats */
+    .stats {
+        background-image: url(/Help/assets/coffe-background2.jpeg);
+        background-size: cover;
+        height: 50vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .stats::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background-color: rgb( 0 0 0 / 75%);
+        position: absolute;
+    }
+    .stats .container {
+        position: relative;
+        color: white;
+        z-index: 2;
+    }
+    .stats .overlay {
+        background-color: var(--transparent-color);
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+        grid-gap: 10px;
+        width: 100%;
+        padding-top: var(--section-padding);
+        padding-bottom: var(--section-padding);
+        text-align: center;
+
+    }
+    .stats .overlay .box{
+        background-color: black;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .stats .overlay .box i{
+        font-size: 20px;
+    }
+    .stats .overlay h4{
+        font-size: 70px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: bold;
+    }
+    .stats .overlay p{
+        font-size: 12;
+        font-weight: 300;
+    }
+    /* End stats */
+    /* Start progress */
+        .prog-sec {
+            background-color: white;
+            color: black;
+            padding-top: var(--section-padding);
+            padding-bottom: var(--section-padding);
+        }
+        .prog-sec .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .prog-sec .head {
+            padding-bottom: 40px;
+            text-align: center;
+        }
+        .prog-sec .head h4 {
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+        .prog-sec .head p{
+            color: #c0bcbe;
+        }
+        .prog-sec .testimoials {
+            max-width: 40%;
+        }
+        .prog-sec .testi {
+            display: flex;
+            padding: 20px;
+        }
+        .prog-sec .testi img {
+            width: 45px;
+            max-height: 100%;
+            border-radius: 50%;
+        }
+        .prog-sec .skills {
+            max-width: 40%;
+
+        }
+    /* End progress */
 
