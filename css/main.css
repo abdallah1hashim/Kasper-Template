@@ -372,10 +372,6 @@ header nav .form i{
     .services .container .services-content .serv{
         max-width: 79%;
     }
-    .services .container .services-content .serv .text {
-
-    }
-
 }
 
 /* end serrvices */
@@ -807,10 +803,6 @@ header nav .form i{
         .testimoials .bullets li:hover {
             background-color: var(---main-color);
             border-color: var(---main-color);
-        }
-
-        .skills .prog-bars {
-            
         }
         .skills .prog-bars div{
             width: 100%;
